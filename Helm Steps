@@ -26,7 +26,5 @@ or
 
 kubectl get secret --namespace default grafana -o jsonpath="{.data.admin-password}" | base64 --decode ; echo
 ----------------------------------------------------------
-
-Dashboards: https://grafana.com/grafana/dashboards/6417
-Grafana playlist: https://www.youtube.com/playlist?list=PLVx1qovxj-akOGKSoQ5sGc5ZRfH8Tpnow
-Prometheus Playlist: https://www.youtube.com/playlist?list=PLVx1qovxj-anCTn6um3BDsoHnIr0O2tz3
+#configure custom or preset dashboard 
+Dashboards: https://grafana.com/grafana/dashboards/
